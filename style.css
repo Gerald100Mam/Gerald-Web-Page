@@ -284,5 +284,16 @@ main, .navbar .container-fluid{
 	main.three-d-printer{
 		background-image: none; 
 
+	}
+	.table-center{
+	max-width: 900px;
+	margin-left:0;
+	margin-right: 0;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 100%;
+	background-color: #e6ffff;
+}
+
 }
 
