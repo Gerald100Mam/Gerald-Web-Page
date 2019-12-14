@@ -1,0 +1,288 @@
+#hideMe {
+    -webkit-animation: cssAnimation 12s forwards; 
+    animation: cssAnimation 12s forwards;
+    border-radius: 50%; 
+   
+    margin:15%;
+    position: center; 
+   
+}
+@keyframes cssAnimation {
+    0%   {opacity: .6;}
+    90%  {opacity:.6;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes cssAnimation {
+    0%   {opacity: .6;}
+    90%  {opacity: .6;}
+    100% {opacity: 0;}
+}
+
+
+div#move{
+  position:center;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: relative;
+
+
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+
+
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%   {background-color:red; left:0px; top:0px; opacity: 1;}
+  25%  {background-color:yellow; left:200px; top:0px;opacity: 1;}
+  50%  {background-color:blue; left:200px; top:0px;opacity: 1;}
+  75%  {background-color:green; left:0px; top:0px;opacity: 1;}
+  100% {background-color:red; left:0px; top:0px; opacity:1;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color:white; left:0px; top:0px;opacity: 1;}
+  25%  {background-color:yellow; left:200px; top:0px;opacity: 1;}
+  50%  {background-color:blue; left:200px; top:0px;opacity: 1;}
+  75%  {background-color:green; left:0px; top:0px;opacity: 1;}
+  100% {background-color:red; left:0px; top:0px; opacity: 1;}
+}
+
+
+
+
+#form_container
+{
+	padding:15px 15px;
+	margin-top:15px;
+	background: rgba(255,255,255,0.75);	
+}
+
+/* Caption text */
+#text {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 0;
+  position: relative;
+  bottom: 30%;
+  width: 100%;
+  text-align: center;
+  font-weight:bold;
+}
+
+
+.slide {
+    display: inline-block;
+
+}
+
+
+
+div.scrollmenu {
+  background-color: blue;
+  overflow: auto;
+  white-space: nowrap;
+  max-width:500px;
+}
+
+
+.table-center{
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 80%;
+	background-color: #e6ffff;
+}
+
+
+
+
+.imgStyle {
+    width: 100px;
+    height: 100px;
+    border: 5px solid blue;
+    margin:0;
+
+}
+
+#back-3d{
+	background-color: blue;
+	position:center;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+
+.center{
+	text-align:center
+}
+
+.dropdown-item{
+	background-color: #cccccc;
+	padding:3px;
+}
+
+
+#mainImage{
+	border:3px solid grey;
+
+}
+
+#wrapper{
+	background-color: #ffffe9;
+	font-size: 1.3em;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	box-shadow: 5px 5px 5px 5px #000000;
+}
+#inside-wrapper{
+
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 80%;
+}
+
+
+
+#bold-E{
+	font-weight: bold;
+
+}
+
+main.three-d-printer{
+	background-image:url(images/3d-printer.jpg); 
+	background-position: center; 
+	background-position:bottom;
+	background-repeat: no-repeat;
+	background-size:40%;
+
+}
+
+a:link{
+	color: #0C303E;
+}
+a:visited{
+	color: #0C303E;
+}
+a:hover{
+	color: white;
+}
+a:active{
+	color: black;
+}
+h1{
+	font-size:3em;
+	border-bottom: 10px solid #073040;
+
+
+}
+
+h1, footer .fine-print{
+	color:white;
+	background-color: #506483;
+	text-align:center;
+	padding:15px;
+	margin:0;
+	display:block;
+}
+h2{
+	margin-bottom:1px;
+	margin-top:5px;
+}
+h3{
+	margin-top:1px;
+	margin-bottom:20px;
+	font-weight:normal;
+	font-style: italic;
+}
+h3.question{
+	text-align:center;
+	font-size:2.5em;
+	background-color: #7389a5;
+	padding:30px;
+	margin-bottom:0;
+	color:white;
+	border-bottom: 10px solid #073040;
+}
+
+
+p{
+	max-width:700px;
+}
+
+blockquote{
+	max-width:1024px;
+	margin:30px;
+
+}
+
+
+.nobullets{
+	list-style-type:none;
+	padding-left:0;
+}
+
+
+.boxstyle{
+	margin-bottom:20px;
+}
+
+/*Centers the images and sets a max width*/
+.wb-carousel{
+	max-width:1200px;
+	margin:20px auto;
+}
+
+main, .navbar .container-fluid{
+	max-width: 1200px;
+	margin:0 auto;
+}
+.icons .fa{
+	font-size: 5em;
+	
+}
+.icons{
+	text-align:center;
+	padding: 40px 0 ;
+	background-color: #a0afc5;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+	main.three-d-printer{
+		background-image: none; 
+	}
+	
+
+
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+	main.three-d-printer{
+		background-image: none; 
+
+}
+
